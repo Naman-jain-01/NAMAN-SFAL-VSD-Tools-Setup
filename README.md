@@ -1,4 +1,3 @@
-Here’s a polished **GitHub README.md** version of your content, formatted properly with Markdown for clarity and professional presentation:
 
 ````markdown
 # SFAL-VSD-Tools-Setup
@@ -190,12 +189,12 @@ docker --version
 
 Verify each tool’s installation by running version checks. Expected outputs:
 
-* **Yosys**: `yosys --version`
-* **Icarus Verilog**: `iverilog -V`
-* **GTKWave**: `gtkwave --version`
-* **ngspice**: `ngspice --version`
-* **Magic**: `magic --version`
-* **OpenLane**: `./flow.tcl -design test`
+* *Yosys*: `yosys --version`
+* *Icarus Verilog*: `iverilog -V`
+* *GTKWave*: `gtkwave --version`
+* *ngspice*: `ngspice --version`
+* *Magic*: `magic --version`
+* *OpenLane*: `./flow.tcl -design test`
 
 Snapshots are stored in the **snapshots/** directory:
 
