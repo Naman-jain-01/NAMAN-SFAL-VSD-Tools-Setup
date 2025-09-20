@@ -12,29 +12,29 @@ This repository documents the setup and installation of tools required for VLSI 
 
 The introductory video (Day 0) provides an overview of the VLSI design flow and the importance of open-source tools in modern chip design. It covers:
 
-- **Introduction** to the SFAL-VSD workshop objectives.  
-- **Overview of tools** like Yosys, Icarus Verilog, GTKWave, ngspice, Magic, and OpenLane for synthesis, simulation, and physical design.  
-- **System requirements** for setting up a virtual machine with adequate resources:
+- Introduction to the SFAL-VSD workshop objectives.  
+- Overview of tools like Yosys, Icarus Verilog, GTKWave, ngspice, Magic, and OpenLane for synthesis, simulation, and physical design.  
+- System requirements for setting up a virtual machine with adequate resources:
   - 6GB RAM  
   - 50GB HDD  
   - 4 vCPUs  
-- **Tool roles in VLSI design**:
-  - **Yosys** → RTL to netlist synthesis  
-  - **Icarus Verilog (iverilog)** → Verilog simulation  
-  - **GTKWave** → Waveform viewing  
-  - **ngspice** → Analog/mixed-signal simulation  
-  - **Magic** → Layout & physical design  
-  - **OpenLane** → Automated RTL-to-GDSII flow  
+- Tool roles in VLSI design:
+  - Yosys → RTL to netlist synthesis  
+  - Icarus Verilog (iverilog) → Verilog simulation  
+  - GTKWave → Waveform viewing  
+  - ngspice → Analog/mixed-signal simulation  
+  - Magic → Layout & physical design  
+  - OpenLane → Automated RTL-to-GDSII flow  
 
-The video emphasizes the need for a **proper environment setup** to ensure smooth execution of the workshop tasks.
+The video emphasizes the need for a proper environment setup to ensure smooth execution of the workshop tasks.
 
 ---
 
 ## 💻 System Requirements
 
-- **Virtual Machine**: [Oracle VirtualBox](https://www.virtualbox.org/wiki/)  
-- **OS**: Ubuntu 20.04+  
-- **Hardware**:
+- Virtual Machine: [Oracle VirtualBox](https://www.virtualbox.org/wiki/)  
+- OS: Ubuntu 20.04+  
+- Hardware:
   - 6GB RAM  
   - 50GB HDD  
   - 4 vCPUs  
