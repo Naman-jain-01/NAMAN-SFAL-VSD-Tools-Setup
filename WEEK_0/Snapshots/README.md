@@ -1,14 +1,14 @@
 
 ````markdown
-# SFAL-VSD-Tools-Setup
+SFAL-VSD-Tools-Setup
 
 This repository documents the setup and installation of tools required for VLSI design as part of the **SFAL-VSD (Skywater Foundry ASIC Lab - VLSI System Design)** workshop. It includes a summary of the introductory video and step-by-step instructions for installing necessary tools on an Ubuntu 20.04+ system with the specified machine configuration.
 
 ---
 
-## 📌 Day 0: Tools Installation
+📌 Day 0: Tools Installation
 
-### 🎥 Video Summary
+🎥 Video Summary
 
 The introductory video (Day 0) provides an overview of the VLSI design flow and the importance of open-source tools in modern chip design. It covers:
 
@@ -215,11 +215,6 @@ Snapshots are stored in the **snapshots/** directory:
 
 ---
 
-```
-
-👉 You can directly copy-paste this into your **README.md** file, and it will render with clean formatting, code blocks, and section separation.  
-
-Would you like me to also **add badges (build, version, license)** at the top of the README for a more professional GitHub look?
 ```
 # SFAL-VSD-Tools-Setup  
 
