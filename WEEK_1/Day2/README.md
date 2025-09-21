@@ -170,10 +170,4 @@ endmodule
 - **Synchronous Reset**: `sync_reset` in `dff_asyncres_syncres` aligns with the clock, reducing timing issues but adding logic complexity.
 - **Netlist Insight**: The `dff_asyncres` netlist shows how synthesis tools adapt active-high resets to active-low library cells using inverters, a common practice in ASIC design.
 - **Resource Usage**: `dff_asyncres_syncres` may require additional logic (e.g., multiplexers) for synchronous reset, increasing area compared to the other modules.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-*Generated on September 21, 2025, 07:28 PM IST*
 ```
