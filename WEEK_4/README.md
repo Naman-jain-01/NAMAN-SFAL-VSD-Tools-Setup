@@ -1,8 +1,5 @@
 # Sky130 CMOS Circuit Design Workshop
 
-![Sky130 Banner](https://raw.githubusercontent.com/google/skywater-pdk/master/docs/img/sky130_banner.png)  
-*(Image sourced from SkyWater PDK documentation)*
-
 ## Overview
 
 Welcome to the **Week 4 Task: CMOS Circuit Design (sky130-style)**! This workshop is designed to deepen your understanding of transistor-level CMOS design principles using the open-source Sky130 PDK (Process Design Kit). By performing hands-on SPICE simulations with ngspice (integrated via tools like Magic VLSI or standalone), you'll explore how device physics, sizing, and variations influence timing, noise margins, and overall circuit behavior. This directly ties into Static Timing Analysis (STA) concepts like slack, delay modeling, and process variations.
@@ -223,13 +220,7 @@ Prepare a report (Markdown or Jupyter export) mirroring this README:
 - **Introduction**: Recap objectives and STA links.
 - **SPICE Netlists**: Full code blocks for each sim.
 - **Plots & Figures**: All graphs with annotations (use matplotlib in notebook).
-- **Tabulated Results**:
-  | Component | Key Metric | Nominal | Low Vdd | W-10% Var |
-  |-----------|------------|---------|---------|-----------|
-  | Threshold | V_t (V)   | 0.42   | 0.40   | 0.41     |
-  | Inverter  | V_m (V)   | 0.90   | 1.00   | 0.85     |
-  | Transient | t_pd avg (ps) | 175 | 220    | 160      |
-  | Noise     | NM_L/NM_H (V) | 0.4/0.4 | 0.35/0.45 | 0.38/0.42 |
+
 - **Observations/Analysis**: 2-3 sentences per section (e.g., "Velocity saturation reduces quadratic scaling, leading to linear delay models in STA for short-channel tech.").
 - **Conclusions**: Reflect on how these constrain real-chip timing (e.g., "Transistor mismatches amplify path delays by 15-20%, justifying STA's statistical approaches.").
 - **References**: Sky130 PDK docs, Sedra/Smith textbook.
