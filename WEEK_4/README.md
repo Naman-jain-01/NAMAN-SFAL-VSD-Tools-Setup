@@ -1,7 +1,4 @@
-# Sky130 CMOS Circuit Design Workshop Report
-
-![Sky130 Banner](https://raw.githubusercontent.com/google/skywater-pdk/master/docs/img/sky130_banner.png)  
-*(Image sourced from SkyWater PDK documentation)*
+# Sky130 CMOS Circuit Design Workshop Report WEEK 4
 
 ## Overview
 
